@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+/* Calculadora de IMC */
+.imc-calculator {
+    background-color: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imc-calculator h3 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 1.2em;
+    color:black;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.thank-you {
+    margin-bottom: 20px;
+}
+
+.thank-you p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #f1c40f; /* Color amarillo para el texto de agradecimiento */
+}
+
+.button-thank-you {
+    display: inline-block;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 15px 30px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animaciones */
+}
+
+.button-thank-you:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
